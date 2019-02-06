@@ -1,0 +1,16 @@
+:local(.viewTab){
+	flex: 1;
+	padding: 8px;
+	text-align: center;
+	cursor: pointer;
+	transition: all .25s;
+	&:hover {
+		background-color: rgba(255,255,255,.025);
+	}
+	&.active {
+		background-color: #8439f2;
+		&:hover{
+			background-color: #9657f4;
+		}
+	}
+}
