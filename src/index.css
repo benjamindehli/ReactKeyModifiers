@@ -6,6 +6,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #10191F;
+  background-color: #282c34;
+  color: #eee;
+}
+
+.container {
+	padding: 0 16px;
 }
 
 code {
